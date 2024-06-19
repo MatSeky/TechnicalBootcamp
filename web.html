@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <title>Online zpěvník - na kytaru s Honzou</title> 
+        <meta name="description" content="Tato stránka je úvodní stránkou projektu Online zpěvník. Pomocí této stránky člověk může vyhledat akordy, ke svým oblíbeným písničkám. Pokud chce, může si písničky přidávat do alb, která následně může tisknout v pdf formátu.">
+        <meta name="keywords" content="Zpěvník, katary, kytara, akordy, písničky, pop, country, akordy na kytaru, hudební nástroje, noty, zpěvník, noty na kytaru, pdf, hudební noty" />
+        
+        <!-- for-mobile-apps -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+
+                <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- js -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/default.js"></script>
+        <!-- //js -->
+                <!-- menu -->
+        <link href="css/component.css" rel="stylesheet" type="text/css"  />
+        <!-- //menu -->
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        
+        
+        <!-- for Facebook -->
+        <meta property="og:title" content="Online zpěvník - na kytaru s Honzou" >
+        <meta property="og:type" content="web" >
+        <meta property="og:image" content="https://www.na-kytaru-s-honzou.cz/images/ja_pisnicka.jpg" >
+        <meta property="og:url" content="https://www.na-kytaru-s-honzou.cz" >
+        <meta property="og:site_name" content="Na kytaru s Honzou" >
+        <meta property="og:description" content="Tato stránka je úvodní stránkou projektu Online zpěvník. Pomocí této stránky člověk může vyhledat akordy, ke svým oblíbeným písničkám. Pokud chce, může si písničky přidávat do alb, která následně může tisknout v pdf formátu." >
+
+        <!-- for Twitter -->
+        <meta name="twitter:card" content="summary" >
+        <meta name="twitter:site" content="https://www.na-kytaru-s-honzou.cz" >
+        <meta name="twitter:title" content="Online zpěvník - na kytaru s Honzou" >
+        <meta name="twitter:description" content="Tato stránka je úvodní stránkou projektu Online zpěvník. Pomocí této stránky člověk může vyhledat akordy, ke svým oblíbeným písničkám. Pokud chce, může si písničky přidávat do alb, která následně může tisknout v pdf formátu." >
+        <meta name="twitter:image" content="https://www.na-kytaru-s-honzou.cz/images/ja_pisnicka.jpg" >
+
+        
+        <link rel="icon" href="images/icon.jpg">
+    </head>	
+    <body class="cbp-spmenu-push">
+        <!-- header -->
+        <div class="header no-print">
+            <div class="container">
+                <div class="top-nav">
+                    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="index.php">Domů</a></li> 
+                        </ul>
+                        <p>© 2024 Online zpěvník. DB <a href="http://w3layouts.com/">W3</a></p>
+
+                    </nav>
+                    <div class="main buttonset">	
+                        <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+                        <button id="showRightPush"><img src="images/menu.png" alt=""/></button>
+                        <!--<span class="menu"></span>-->
+                    </div>
+                    <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+                    <script src="js/classie.js"></script>
+                    <script>
+                        var menuRight = document.getElementById('cbp-spmenu-s2'),
+                                showRightPush = document.getElementById('showRightPush'),
+                                body = document.body;
+
+                        showRightPush.onclick = function () {
+                            classie.toggle(this, 'active');
+                            classie.toggle(body, 'cbp-spmenu-push-toleft');
+                            classie.toggle(menuRight, 'cbp-spmenu-open');
+                            disableOther('showRightPush');
+                        };
+
+                        function disableOther(button) {
+                            if (button !== 'showRightPush') {
+                                classie.toggle(showRightPush, 'disabled');
+                            }
+                        }
+                    </script>
+                </div>
+                <div class="logo">
+                                <a href="http://www.jan-mazanec.cz">Na kytaru s <span>Honzou</span></a>
+                              </div> 
+
+
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+         
+        <!-- //header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- welcome -->
+<div id="login_grid">
+    <div class="container">
+        <div class="col-xs-12" >
+            <div class="col-sm-12 about">
+                <center>
+                    <h1>Online zpěvník</h1>
+                </center>
+                <p> Celá myšlenka mého projektu "online zpěvník" vznikla v podstatě z důvodu 
+                    mého neustálého a nekonečného ztrácení textů, ale také mého striktně ekologického smýšlení. Aplikaci jsem sobecky 
+                    původně napsal pouze sám pro sebe, ale nakonec jsem si řekl, že by se někomu také mohla hodit.</p>
+                <p> Taky se Vám stalo, že jste si vymazlili svůj zpěvník obsahující skoro už stovku písní, kterými jste otravovali všechny lidi
+                    kolem sebe a tento zpěvník se Vám záhadně ztratil, spadl do vody, poblil ho kamarád nebo jste se s ním v krutém mrazu zatopili, čímž jste si vlastně zachránili život?
+                    Pak jste zjistili, že nikde nemáte kopii a všechen čas skladání zpěvníku přišel vniveč?</p>
+                <p class="colored"><a href="include/fb_login/fbconfig.php"> Použijte zpěvník online... </a></p>
+                <br>
+                <p><b> Co umí online zpěvník? </b></p>
+                <ul>
+                    <li>Jednoduše si vytvořte písničky tak, že si je napíšete, nebo je zkopírujete z jiného zdroje do editoru aplikace.</li>
+                    <li>Písničky můžete kdykoliv upravit nebo smazat.</li>
+                    <li>Každou písničku, kterou vytvoříte, automaticky sdílíte s ostatními uživateli, kteří si ji mohou dát mezi své oblíbené písničky.</li>
+                    <li>Své oblíbené písničky můžete shlukovat do zpěvníků, které jsou dále sdíleny ostatním uživatelům.</li>
+                    <li>Cizí i své zpěvníky si označíte tagem oblíbené, čímž je máte rychleji po ruce.</li>
+                    <li>Každý zpěvník je možné stáhnout ve formátu .pdf a následně vesele tisknout (s tou ekologií jsem si dělal srandu).</li>
+                    <li>Pokud hrajete písničky z mobilního zařízení, není nic jednoduššího, než si udělat akutální frontu písní. Písničku, kterou odehrajete následuje další ve frontě.</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12">
+            <center class="b_hole_before b_hole_after">
+                <h2> Přihlašte se pomocí vašeho facebookového účtu</h2>
+                <a  href="include/fb_login/fbconfig.php"><img id="fb_login" src="images/facebook.png" ></a>
+            </center>
+        </div>
+    </div>
+</div>
+<!-- //welcome -->
+
+<!-- contact -->
+<div id="mail" class="contact b_hole_after b_hole_before">
+    <div class="container">
+        <div class="contact-grids">
+            <div class="col-md-4 contact-grid">
+                <h3 class="hole_before hole_after">Kontaktní informace</h3>
+                <br>
+                <ul>
+                    <li class="dot"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Adresa: Olympijská 5 <span>Praha 169 00</span></li>
+                    <li class="Phone"><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>+420 728 234 823</li>
+                    <li class="mail"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:jan.mazanec1@seznam.cz" class="mail">jan.mazanec1@seznam.cz</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 contact-grid">
+                <h3 class="hole_before hole_after">Máš nějaký nápad, jak zlepšit tuto stránku? Napiš mi ho</h3>
+                <br>
+                <form method="post">
+                    <input type="text" value="Jméno" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {
+                                this.value = 'Jméno';
+                            }" required="">
+                    <input type="email" value="Email" name="email" onfocus="this.value = '';" onblur="if (this.value == '') {
+                                this.value = 'Email';
+                            }" required="">
+                    <textarea type="text" value="Zpráva" name="message" onfocus="this.value = '';" onblur="if (this.value == '') {
+                                this.value = 'Zpráva...';
+                            }" required="">Zpráva</textarea>
+                    <input type="submit" value="Odeslat" >
+                </form>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //contact -->
+
+<!-- footer -->
+	<div class="footer no-print">
+		<!-- container -->
+		<div class="container">
+			<div class="footer-top">
+					<div class="footer-grids">
+						<div class="col-md-8 col-xs-12 footer-logo">
+							<a href="http://www.jan-mazanec.cz">Na kytaru s <span>Honzou</span></a>
+						</div>
+						<div class="col-md-4 col-xs-12 f-address">
+							<h5>Kontakt</h5>
+							<ul>
+								<li>U Smaltovny 14</li>
+                                                                <li>Holešovice</li>
+								<li>170 00 Praha 7</li>
+								<li><a href="mailto:example@email.com">jan.mazanec1@seznam.cz</a></li>
+                                                                <li><a href="privacy.php">Privacy policy</a></li>
+						</ul></div>
+						<div class="clearfix"> </div>
+					</div>
+			</div>
+		</div>
+		<!-- //container -->
+		<div class="footer-bottom">
+			<div class="copyright">
+				<p> © 2024 "Na kytaru s Honzou". DB <a href="http://w3layouts.com/">W3</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+</body>
+</html>
