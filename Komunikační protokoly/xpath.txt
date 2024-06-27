@@ -1,0 +1,4 @@
+1. //book[@category='web']/title
+2. //book[price > 35]/price
+3. //author[text()='Kurt Cagle']
+4. count(//book[year='2005'])
